@@ -1,0 +1,18 @@
+WARNING! lexparser.Options: Unknown option ignored: -file
+java.io.IOException: Unable to open "lexical.txt" as class path, filename or URL
+  edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+  edu.stanford.nlp.io.IOUtils.readStreamFromString(IOUtils.java:400)
+  edu.stanford.nlp.parser.lexparser.LexicalizedParser.getParserFromSerializedFile(LexicalizedParser.java:598)
+  edu.stanford.nlp.parser.lexparser.LexicalizedParser.getParserFromFile(LexicalizedParser.java:404)
+  edu.stanford.nlp.parser.lexparser.LexicalizedParser.loadModel(LexicalizedParser.java:186)
+  edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1400)
+java.io.IOException: Unable to open "lexical.txt" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.getParserFromTextFile(LexicalizedParser.java:541)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.getParserFromFile(LexicalizedParser.java:406)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.loadModel(LexicalizedParser.java:186)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1400)
+Exception in thread "main" java.lang.NullPointerException
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.loadModel(LexicalizedParser.java:188)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1400)
