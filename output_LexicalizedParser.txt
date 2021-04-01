@@ -1,4 +1,4 @@
-WARNING! lexparser.Options: Unknown option ignored: -file
+WARNING! lexparser.Options: Unknown option ignored: -textFile
 java.io.IOException: Unable to open "lexical.txt" as class path, filename or URL
   edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
   edu.stanford.nlp.io.IOUtils.readStreamFromString(IOUtils.java:400)
