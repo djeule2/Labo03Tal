@@ -1,2 +1,2 @@
-Loading parser from serialized file frenchFactored.ser.gz ... done [2.0 sec].
+Loading parser from serialized file frenchFactored.ser.gz ... done [2.4 sec].
 (ROOT (SENT (NP (PRO Ceci)) (VN (V est)) (ADV seulement) (NP (DET un) (NC test)) (PUNC .)))
